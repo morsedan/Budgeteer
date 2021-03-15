@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C063A69125F46A320071AB25 /* BudgetCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C063A69025F46A320071AB25 /* BudgetCategoryCell.swift */; };
 		C097B47525E336EA00D781BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C097B47425E336EA00D781BB /* AppDelegate.swift */; };
 		C097B47725E336EA00D781BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C097B47625E336EA00D781BB /* SceneDelegate.swift */; };
-		C097B47925E336EA00D781BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C097B47825E336EA00D781BB /* ViewController.swift */; };
 		C097B47C25E336EA00D781BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C097B47A25E336EA00D781BB /* Main.storyboard */; };
 		C097B47E25E336ED00D781BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C097B47D25E336ED00D781BB /* Assets.xcassets */; };
 		C097B48125E336ED00D781BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C097B47F25E336ED00D781BB /* LaunchScreen.storyboard */; };
 		C097B48C25E336ED00D781BB /* BudgeteerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C097B48B25E336ED00D781BB /* BudgeteerTests.swift */; };
 		C097B49725E336ED00D781BB /* BudgeteerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C097B49625E336ED00D781BB /* BudgeteerUITests.swift */; };
+		C097B4AB25E3395400D781BB /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C097B4AA25E3395400D781BB /* CategoriesTableViewController.swift */; };
+		C097B4B025E3468C00D781BB /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C097B4AF25E3468C00D781BB /* CategoryController.swift */; };
+		C097B4B525E346CA00D781BB /* BudgetCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C097B4B425E346CA00D781BB /* BudgetCategory.swift */; };
+		C09B864F25E5EFB70099F677 /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09B864E25E5EFB70099F677 /* AddCategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C063A69025F46A320071AB25 /* BudgetCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetCategoryCell.swift; sourceTree = "<group>"; };
 		C097B47125E336EA00D781BB /* Budgeteer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budgeteer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C097B47425E336EA00D781BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C097B47625E336EA00D781BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C097B47825E336EA00D781BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C097B47B25E336EA00D781BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C097B47D25E336ED00D781BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C097B48025E336ED00D781BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		C097B49225E336ED00D781BB /* BudgeteerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgeteerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C097B49625E336ED00D781BB /* BudgeteerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgeteerUITests.swift; sourceTree = "<group>"; };
 		C097B49825E336ED00D781BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C097B4AA25E3395400D781BB /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		C097B4AF25E3468C00D781BB /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
+		C097B4B425E346CA00D781BB /* BudgetCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetCategory.swift; sourceTree = "<group>"; };
+		C09B864E25E5EFB70099F677 /* AddCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +109,12 @@
 			children = (
 				C097B47425E336EA00D781BB /* AppDelegate.swift */,
 				C097B47625E336EA00D781BB /* SceneDelegate.swift */,
-				C097B47825E336EA00D781BB /* ViewController.swift */,
 				C097B47A25E336EA00D781BB /* Main.storyboard */,
+				C097B4AA25E3395400D781BB /* CategoriesTableViewController.swift */,
+				C063A69025F46A320071AB25 /* BudgetCategoryCell.swift */,
+				C09B864E25E5EFB70099F677 /* AddCategoryViewController.swift */,
+				C097B4AF25E3468C00D781BB /* CategoryController.swift */,
+				C097B4B425E346CA00D781BB /* BudgetCategory.swift */,
 				C097B47D25E336ED00D781BB /* Assets.xcassets */,
 				C097B47F25E336ED00D781BB /* LaunchScreen.storyboard */,
 				C097B48225E336ED00D781BB /* Info.plist */,
@@ -258,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C097B47925E336EA00D781BB /* ViewController.swift in Sources */,
+				C097B4AB25E3395400D781BB /* CategoriesTableViewController.swift in Sources */,
+				C097B4B525E346CA00D781BB /* BudgetCategory.swift in Sources */,
+				C09B864F25E5EFB70099F677 /* AddCategoryViewController.swift in Sources */,
+				C097B4B025E3468C00D781BB /* CategoryController.swift in Sources */,
 				C097B47525E336EA00D781BB /* AppDelegate.swift in Sources */,
+				C063A69125F46A320071AB25 /* BudgetCategoryCell.swift in Sources */,
 				C097B47725E336EA00D781BB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +454,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Budgeteer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Budgeteer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
